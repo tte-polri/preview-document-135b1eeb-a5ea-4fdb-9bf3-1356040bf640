@@ -17,8 +17,8 @@
     <div class="bg-white w-full max-w-[400px] min-h-screen p-6 shadow-md relative">
         
         <!-- Logo Polri -->
-        <div class="flex justify-center mt-4 mb-10">
-            <img id="imgLogoPolri" src="" alt="Logo Polri" class="h-20 drop-shadow-md">
+        <div class="flex justify-center mt-2 mb-6">
+            <img id="imgLogoPolri" src="" alt="Logo Polri" class="h-16 drop-shadow-md">
         </div>
 
         <!-- Bagian File & Nama -->
@@ -55,13 +55,13 @@
             <p class="font-semibold text-[#1a202c] text-[16px]">1 Halaman</p>
         </div>
 
-        <div class="mb-10">
+        <div class="mb-6">
             <p class="text-gray-500 text-[15px] mb-1">Penanda Tangan</p>
             <p class="font-semibold text-[#1a202c] text-[16px]">FERI RENALDO SITORUS, S.I.K., M.H.</p>
         </div>
 
         <!-- Tombol Aksi -->
-        <div class="space-y-3 mt-8">
+        <div class="space-y-3 mt-4">
             <button onclick="showNikView('dokumen')" class="w-full bg-black hover:bg-gray-900 transition-colors text-white py-3.5 rounded-md font-semibold text-[13px] tracking-wide">
                 LIHAT DOKUMEN
             </button>
@@ -104,7 +104,7 @@
                 <p id="nikError" class="hidden text-red-500 text-[12px] mt-2 ml-1">NIK harus 16 digit angka!</p>
             </div>
 
-            <div class="absolute bottom-10 w-full px-6">
+            <div class="absolute bottom-6 w-full px-6">
                 <button onclick="cekDataSKCK()" id="btnMasuk" class="w-full bg-[#7a1114] hover:bg-[#5c0d0f] transition-colors text-white py-4 rounded-full font-bold text-[16px] tracking-wide shadow-md flex justify-center items-center">
                     <span id="btnText">MASUK</span>
                     <svg id="btnLoading" class="hidden animate-spin ml-2 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -195,7 +195,7 @@
             </div>
 
             <!-- Footer Unduh -->
-            <div class="px-6 pb-8 pt-4 bg-white border-t border-gray-100 flex-shrink-0">
+            <div class="px-6 pb-5 pt-3 bg-white border-t border-gray-100 flex-shrink-0">
                 <button onclick="downloadPDF()" id="btnDownload" class="w-full bg-[#2ecc71] hover:bg-[#27ae60] transition-colors text-white py-3.5 rounded-md font-bold text-[14px] tracking-wide shadow-md flex justify-center items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
